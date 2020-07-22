@@ -3,7 +3,9 @@ import ContentState from './examples/ContentState';
 import CreateContentState from './examples/CreateContentState';
 import SelectionState from './examples/SelectionState';
 import Entity from './examples/Entity';
-// process.env.PUBLIC_URL -> homepage in package.json
+import RichUtilsSimple from './examples/RichUtilsSimple';
+import HashTags from './examples/HashTags';
+
 export default [
   {
     path: '/simple',
@@ -30,4 +32,14 @@ export default [
     text: 'Entities',
     component: Entity
   },
+  {
+    path: '/rich-utils',
+    text: 'Rich Utils Simple',
+    component: RichUtilsSimple
+  },
+  {
+    path: '/hashtags',
+    text: 'HashTags Simple',
+    component: HashTags
+  }
 ]
