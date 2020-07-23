@@ -4,6 +4,7 @@ import CreateContentState from './examples/CreateContentState';
 import SelectionState from './examples/SelectionState';
 import Entity from './examples/Entity';
 import RichUtilsSimple from './examples/RichUtilsSimple';
+import BlockFunction from './examples/BlockFunction';
 import HashTags from './examples/HashTags';
 
 export default [
@@ -36,6 +37,11 @@ export default [
     path: '/rich-utils',
     text: 'Rich Utils Simple',
     component: RichUtilsSimple
+  },
+  {
+    path: '/block-function',
+    text: 'Block Function',
+    component: BlockFunction
   },
   {
     path: '/hashtags',

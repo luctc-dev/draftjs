@@ -68,3 +68,10 @@ h1,
   background-color: #dce6f8;
   color: rgba(0, 0, 0, 0.65);
 }
+
+.draftImg {
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
